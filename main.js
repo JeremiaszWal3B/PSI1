@@ -8,4 +8,4 @@ function suma() {
     p.innerText = sum;
 }
 
-button.addEventListener('click', suma());
+button.addEventListener('click', suma);
