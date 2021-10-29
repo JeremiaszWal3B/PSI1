@@ -1,5 +1,6 @@
 const num1 = document.getElementById('num1');
 const num2 = document.getElementById('num2');
+const button = document.querySelector('button');
 const p = document.querySelector('p');
 
 function suma() {
@@ -7,4 +8,4 @@ function suma() {
     p.innerText = sum;
 }
 
-document.addEventListener('submit', suma());
+button.addEventListener('click', suma());
